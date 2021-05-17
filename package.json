@@ -1,0 +1,29 @@
+{
+    "name": "sapper-cloudinary-upload",
+    "description": "Upload Images to Cloudinary with Sapper.",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "sapper dev",
+        "build": "sapper build",
+        "export": "sapper export",
+        "start": "node __sapper__/build"
+    },
+    "author": "Ashutosh K Singh",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cloudinary": "^1.25.1",
+        "compression": "^1.7.1",
+        "dotenv": "^9.0.2",
+        "polka": "next",
+        "sirv": "^1.0.0"
+    },
+    "devDependencies": {
+        "file-loader": "^6.0.0",
+        "sapper": "^0.28.0",
+        "svelte": "^3.17.3",
+        "svelte-loader": "^3.0.0",
+        "webpack": "^4.46.0",
+        "webpack-modules": "^1.0.0"
+    }
+}
